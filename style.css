@@ -1,0 +1,114 @@
+body{
+  margin:0px;
+  padding:0px;
+  background-color: rgb(35, 56, 56);
+} 
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-bottom: 4px solid rgb(255, 60, 0);
+  gap: 4em;
+}
+
+h1, h3 {
+  text-align: center;
+  margin: 5px;
+}
+
+#h1Name{
+  border-bottom: 4px solid rgb(255, 60, 0);
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* vertical */
+}
+
+#centeredContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* vertical */
+
+}
+
+#aboutImage{
+  margin-top: 25px;
+  width: 700px;
+}
+
+#aboutText{
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.tab {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  cursor: pointer;
+  width: 70px;
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.tab:hover{
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.selectedTab{
+  border: 1px solid rgb(255, 60, 0);
+}
+
+.selectedTab:hover{
+  border: 1px solid rgb(255, 60, 0);
+}
+
+#divLogo{
+  cursor: pointer;
+}
+
+.menuImage{
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.menuLabel{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  border: 2px white solid;
+  margin-top: 25px;
+  padding: 5px 10px;
+}
+
+#orderLinksDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* vertical */
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.orderLink{
+  width: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+#ContactDiv{
+  border: black, solid 1px;
+}
