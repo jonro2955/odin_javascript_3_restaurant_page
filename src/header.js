@@ -18,7 +18,6 @@ function loadHeader(){
   divContactTab.textContent = "Contact";
 
   h1Name.setAttribute("id", "h1Name")
-  divLogo.setAttribute("id", "divLogo");
   divAboutTab.classList.add("tab");
   divAboutTab.classList.add("selectedTab");
   divOrderTab.classList.add("tab");

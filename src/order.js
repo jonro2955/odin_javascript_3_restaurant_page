@@ -8,11 +8,10 @@ function loadOrder(){
   const ddImg = document.createElement("img");
 
   orderLinksDiv.setAttribute("id", "orderLinksDiv");
-  ueLink.setAttribute("href", "www.ubereats.com/");
-  ddLink.setAttribute("href", "www.doorddash.com/");
+  ueLink.setAttribute("href", "http://www.ubereats.com");
+  ddLink.setAttribute("href", "http://www.doorddash.com");
   ueLink.setAttribute("target", "_blank");
   ddLink.setAttribute("target", "_blank");
-
 
   ueImg.setAttribute("src", "/images/ue.jpg");
   ddImg.setAttribute("src", "/images/dd.jpg");
