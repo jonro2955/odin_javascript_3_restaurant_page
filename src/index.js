@@ -1,6 +1,9 @@
 /**
  * terminal script to compile to dist/main.js:
  * npx webpack --mode development 
+ * 
+ * terminal script to set dist folder as gh-pages root:
+ * git subtree push --prefix dist origin gh-pages
  */
 
 import loadHeader from './header.js';
