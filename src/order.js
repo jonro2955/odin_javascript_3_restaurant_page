@@ -9,7 +9,7 @@ function loadOrder(){
 
   orderLinksDiv.setAttribute("id", "orderLinksDiv");
   ueLink.setAttribute("href", "http://www.ubereats.com");
-  ddLink.setAttribute("href", "http://www.doorddash.com");
+  ddLink.setAttribute("href", "http://www.doordash.com");
   ueLink.setAttribute("target", "_blank");
   ddLink.setAttribute("target", "_blank");
 
