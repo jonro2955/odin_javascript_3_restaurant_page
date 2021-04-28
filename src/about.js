@@ -7,7 +7,7 @@ function loadAbout(){
   const copyright = document.createElement("div");
 
   about.setAttribute("id", "aboutDiv")
-  imgMain.setAttribute("src", "/images/kebab.jpg");
+  imgMain.setAttribute("src", "images/kebab.jpg");
   imgMain.setAttribute("alt", "Main Image");
   imgMain.setAttribute("id", "aboutImage");
   aboutText.setAttribute("id", "aboutText");

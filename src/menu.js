@@ -8,9 +8,9 @@ function loadMenu(){
   const imgClassic = document.createElement("img");
   const imgSandwich = document.createElement("img");
 
-  imgKebab.setAttribute("src", "/images/kebab.jpg");
-  imgClassic.setAttribute("src", "/images/classic.jpg");
-  imgSandwich.setAttribute("src", "/images/sandwich.jpg");
+  imgKebab.setAttribute("src", "images/kebab.jpg");
+  imgClassic.setAttribute("src", "images/classic.jpg");
+  imgSandwich.setAttribute("src", "images/sandwich.jpg");
   imgKebab.setAttribute("alt", "Kebab");
   imgClassic.setAttribute("alt", "Classic");
   imgSandwich.setAttribute("alt", "Sandwich");

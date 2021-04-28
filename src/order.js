@@ -13,8 +13,8 @@ function loadOrder(){
   ueLink.setAttribute("target", "_blank");
   ddLink.setAttribute("target", "_blank");
 
-  ueImg.setAttribute("src", "/images/ue.jpg");
-  ddImg.setAttribute("src", "/images/dd.jpg");
+  ueImg.setAttribute("src", "images/ue.jpg");
+  ddImg.setAttribute("src", "images/dd.jpg");
   ueImg.setAttribute("alt", "UberEats");
   ddImg.setAttribute("alt", "Door Dash");
   ueImg.setAttribute("class", "orderLink");
