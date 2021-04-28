@@ -12,7 +12,7 @@ function loadAbout(){
   imgMain.setAttribute("id", "aboutImage");
   aboutText.setAttribute("id", "aboutText");
   copyright.setAttribute("id", "copyright");
-  aboutText.textContent = "A bold take on the classic dish";
+  aboutText.textContent = "A bold take on a classic dish";
   copyright.innerHTML = "Copyright &copy; Jonathan Ro, 2021"
 
   about.append(imgMain, aboutText, copyright);
