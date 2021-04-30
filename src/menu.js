@@ -29,7 +29,7 @@ function loadMenu(){
   const labelSandwich = document.createElement("div");
   const labelFeast = document.createElement("div");
 
-  labelKebab.textContent = "Kebab";
+  labelKebab.textContent = "Shish Kebab";
   labelClassic.textContent = "Classic";
   labelSandwich.textContent = "Sandwich";
   labelFeast.textContent = "Feast";

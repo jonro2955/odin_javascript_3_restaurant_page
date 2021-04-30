@@ -41,10 +41,15 @@ h1, h3 {
 }
 
 #aboutImage{
-  margin-top: 50px;
-  width: 700px;
-  border: 5px black solid;
+  margin-top: 15px;
+  border: 5px white solid;
+}
 
+#shishLabel{
+  margin-top: 50px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
 }
 
 #aboutText{
@@ -52,6 +57,24 @@ h1, h3 {
   font-size: 20px;
   color: white;
   text-align: center;
+}
+
+#deliveryDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* vertical */
+  margin-top: 100px;
+  gap: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+.deliveryLink{
+  width: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .tab {
@@ -108,7 +131,7 @@ h1, h3 {
   width: 300px;
   width: 300px;
   object-fit: cover;
-
+  border-radius: 15px;
 }
 
 #contactDiv{
