@@ -15,13 +15,22 @@ import loadContact from './contact.js';
 loadHeader();
 loadAbout();
 
-const content = document.querySelector("#content");
+const logo = document.querySelector("#logo");
 const tab1About = document.querySelector("#divAboutTab");
+tab1About.classList.add("selectedTab");
 const tab2Menu = document.querySelector("#divMenuTab");
 const tab3Order = document.querySelector("#divOrderTab");
 const tab4Contact = document.querySelector("#divContactTab");
+const content = document.querySelector("#content");
 
-tab1About.classList.add("selectedTab");
+logo.addEventListener("click", () => {
+  tab1About.classList.add("selectedTab");
+  tab2Menu.classList.remove("selectedTab");
+  tab3Order.classList.remove("selectedTab");
+  tab4Contact.classList.remove("selectedTab");
+  content.removeChild(content.lastChild);
+  loadAbout();
+});
 
 tab1About.addEventListener("click", () => {
   tab1About.classList.add("selectedTab");

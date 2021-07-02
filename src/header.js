@@ -3,6 +3,8 @@ function loadHeader(){
 
   const headerNav = document.createElement("header");
   const divLogo = document.createElement("div");
+  divLogo.setAttribute("id", "logo");
+  divLogo.setAttribute("title", "About");
   const h1Name = document.createElement("h1");
   const h3Motto = document.createElement("h3");
   const divAboutTab = document.createElement("div");
