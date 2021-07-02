@@ -20,6 +20,9 @@ h1, h3 {
   text-align: center;
   margin: 5px;
 }
+#logo{
+  cursor: pointer;
+}
 
 #h1Name{
   border-bottom: 4px solid rgb(255, 60, 0);
