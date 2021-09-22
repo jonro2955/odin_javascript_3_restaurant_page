@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/jonro2955/odin_javascript_3_restaurant_page#readme",
   "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
     "webpack": "^5.35.0",
     "webpack-cli": "^4.6.0"
   }
